@@ -25,7 +25,7 @@ const Header = (props: Props) => {
     };
 
     return (
-        <div className={s.header}>
+        <header className={s.header}>
             <div className={s.wrapper}>
                 <div className={s.logo}>
                     <GlobalSvgSelector id="header-logo" />
@@ -38,7 +38,7 @@ const Header = (props: Props) => {
                 </div>
                 <Select defaultValue={options[0]} styles={colorStyles} options={options} />
             </div>
-        </div>
+        </header>
     );
 };
 
